@@ -1,0 +1,279 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+	{
+		"context": "Workspace",
+		"bindings": {
+			// "shift shift": "file_finder::Toggle"
+		}
+	},
+	{
+		"context": "Editor && vim_mode == insert",
+		"bindings": {
+			// "j k": "vim::NormalBefore"
+		}
+	},
+	{
+		"context": "ProjectPanel",
+		"bindings": {
+			"ctrl-left": null
+		}
+	},
+	{
+		"context": "AgentPanel",
+		"bindings": {
+			"ctrl-shift-e": null
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-b": "workspace::ToggleRightDock"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-`": "workspace::NewCenterTerminal"
+		}
+	},
+ {
+  "context": "AcpThread > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-enter": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "enter": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-enter": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "enter": null
+  }
+ },
+ {
+  "context": "AgentDiff",
+  "bindings": {
+   "ctrl-y": null
+  }
+ },
+ {
+  "context": "(Editor && editor_agent_diff)",
+  "bindings": {
+   "ctrl-y": null
+  }
+ },
+ {
+  "context": "AgentDiff",
+  "bindings": {
+   "ctrl-n": null
+  }
+ },
+ {
+  "context": "(Editor && editor_agent_diff)",
+  "bindings": {
+   "ctrl-n": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "AgentDiff",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "(Editor && editor_agent_diff)",
+  "bindings": {
+   "ctrl-shift-y": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-n": null
+  }
+ },
+ {
+  "context": "ContextEditor > Editor",
+  "bindings": {
+   "ctrl-k l": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "shift-tab": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-alt-i": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "ctrl-enter": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-win-b": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "alt-shift-p": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-shift-enter": null
+  }
+ },
+ {
+  "context": "(Editor && editor_agent_diff)",
+  "bindings": {
+   "ctrl-shift-r": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "alt-shift-n": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-alt-y": null
+  }
+ },
+ {
+  "context": "Workspace",
+  "bindings": {
+   "ctrl-shift-/": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-alt-z": null
+  }
+ },
+ {
+  "context": "(Editor && editor_agent_diff)",
+  "bindings": {
+   "ctrl-shift-n": null
+  }
+ },
+ {
+  "context": "AcpThread > (Editor && !use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-n": null
+  }
+ },
+ {
+  "context": "(MessageEditor && !Picker) > (Editor && use_modifier_to_send)",
+  "bindings": {
+   "ctrl-shift-n": null
+  }
+ },
+ {
+  "context": "(AgentPanel && acp_thread)",
+  "bindings": {
+   "ctrl-alt-t": null
+  }
+ },
+ {
+  "context": "(AgentPanel && text_thread)",
+  "bindings": {
+   "ctrl-alt-t": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-y": null
+  }
+ },
+ {
+  "context": "AgentPanel",
+  "bindings": {
+   "ctrl-n": null
+  }
+ },
+ {
+  "context": "AgentDiff",
+  "bindings": {
+   "ctrl-shift-n": null
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-d": "editor::SelectLine"
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-shift-up": "editor::SelectUp"
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "shift-up": null
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-shift-down": "editor::SelectDown"
+  }
+ }
+]
