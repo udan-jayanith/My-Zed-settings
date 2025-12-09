@@ -255,12 +255,6 @@
  {
   "context": "Editor",
   "bindings": {
-   "ctrl-d": "editor::SelectLine"
-  }
- },
- {
-  "context": "Editor",
-  "bindings": {
    "ctrl-shift-up": "editor::SelectUp"
   }
  },
@@ -274,6 +268,36 @@
   "context": "Editor",
   "bindings": {
    "ctrl-shift-down": "editor::SelectDown"
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-d": "editor::DeleteLine"
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-shift-k": null
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-shift-k": null
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-shift-k": null
+  }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "f5": "editor::Delete"
   }
  }
 ]
