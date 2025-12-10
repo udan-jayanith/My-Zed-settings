@@ -8,8 +8,8 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"selection_highlight": false,
- "auto_update": true,
- "collaboration_panel": {
+	"auto_update": true,
+	"collaboration_panel": {
 		"dock": "right"
 	},
 	"outline_panel": {
@@ -80,10 +80,10 @@
 	"disable_ai": true,
 	"terminal": {
 		"font_size": 13.6,
-  "shell": {
-   "program": "powershell.exe"
-  },
-  "cursor_shape": "bar",
+		"shell": {
+			"program": "powershell.exe"
+		},
+		"cursor_shape": "bar",
 		"dock": "right",
 		"button": false,
 		"font_family": "Fira Code"
@@ -147,6 +147,11 @@
 
 			"tab_bar.background": "#17181A",
 			"tab.inactive_background": "#16181C"
+		}
+	},
+	"languages": {
+		"Go": {
+			"formatter": { "language_server": { "name": "gopls" } }
 		}
 	}
 }
