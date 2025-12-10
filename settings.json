@@ -7,7 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"collaboration_panel": {
+	"selection_highlight": false,
+ "auto_update": true,
+ "collaboration_panel": {
 		"dock": "right"
 	},
 	"outline_panel": {
