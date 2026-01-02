@@ -10,40 +10,40 @@
 	"selection_highlight": false,
 	"auto_update": true,
 	"collaboration_panel": {
-		"dock": "right"
+		"dock": "right",
 	},
 	"outline_panel": {
-		"dock": "right"
+		"dock": "right",
 	},
 	"git_panel": {
-		"dock": "right"
+		"dock": "right",
 	},
 	"project_panel": {
 		"hide_hidden": true,
 		"default_width": 700.0,
-		"dock": "right"
+		"dock": "right",
 	},
 	"title_bar": {
 		"show_branch_icon": true, // Show/hide branch icon beside branch switcher
 		"show_branch_name": true, // Show/hide branch name
 		"show_user_picture": true, // Show/hide user avatar
 		"show_sign_in": true, // Show/hide sign-in button
-		"show_menus": false
+		"show_menus": false,
 	},
 	"debugger": {
 		"dock": "right",
-		"button": false
+		"button": false,
 	},
 	"inline_code_actions": false,
 	"prettier": {
-		"allowed": true
+		"allowed": true,
 	},
 	"completions": {
-		"words_min_length": 3
+		"words_min_length": 3,
 	},
 	"indent_guides": {
 		"background_coloring": "disabled",
-		"coloring": "fixed"
+		"coloring": "fixed",
 	},
 	"preferred_line_length": 110,
 	"show_wrap_guides": false,
@@ -52,21 +52,21 @@
 		"selections_menu": true,
 		"quick_actions": false,
 		"breadcrumbs": false,
-		"agent_review": false
+		"agent_review": false,
 	},
 	"minimap": {
 		"thumb": "always",
-		"show": "always"
+		"show": "always",
 	},
 	"gutter": {
 		"min_line_number_digits": 3,
-		"breakpoints": false
+		"breakpoints": false,
 	},
 	"auto_signature_help": true,
 	"autoscroll_on_clicks": true,
 	"ui_font_family": "Fira Mono",
 	"edit_predictions": {
-		"enabled_in_text_threads": false
+		"enabled_in_text_threads": false,
 	},
 	"show_edit_predictions": false,
 	"agent": {
@@ -75,38 +75,38 @@
 		"expand_edit_card": false,
 		"enable_feedback": false,
 		"single_file_review": false,
-		"model_parameters": []
+		"model_parameters": [],
 	},
 	"disable_ai": true,
 	"terminal": {
 		"font_size": 13.6,
 		"shell": {
-			"program": "powershell.exe"
+			"program": "powershell.exe",
 		},
 		"cursor_shape": "bar",
 		"dock": "right",
 		"button": false,
-		"font_family": "Fira Code"
+		"font_family": "Fira Code",
 	},
 	"node": {
-		"npm_path": "npm"
+		"npm_path": "npm",
 	},
 	"base_keymap": "VSCode",
 	"sticky_scroll": {
-		"enabled": false
+		"enabled": false,
 	},
 	"scrollbar": {
 		"show": "always",
 		"axes": {
-			"horizontal": false
-		}
+			"horizontal": false,
+		},
 	},
 	"cursor_shape": "bar",
 	"cursor_blink": true,
 	"autosave": {
 		"after_delay": {
-			"milliseconds": 1000
-		}
+			"milliseconds": 1000,
+		},
 	},
 	"buffer_font_family": "Fira Code",
 	"auto_indent_on_paste": true,
@@ -121,16 +121,16 @@
 	"theme": {
 		"mode": "dark",
 		"light": "One Light",
-		"dark": "Ayu Dark"
+		"dark": "Ayu Dark",
 	},
 	"buffer_font_features": {
-		"calt": true // Disable ligatures
+		"calt": true, // Disable ligatures
 	},
 	// Customize the tab bar appearance
 	"tab_bar": {
 		"show": true, // Show/hide the tab bar
 		"show_nav_history_buttons": false, // Show/hide history buttons on tab bar
-		"show_tab_bar_buttons": false // Show hide buttons (new, split, zoom)
+		"show_tab_bar_buttons": false, // Show hide buttons (new, split, zoom)
 	},
 	"tabs": {
 		"git_status": true, // Color to show git status
@@ -138,7 +138,7 @@
 		"show_close_button": "always", // Close button shown (hover, always, hidden)
 		"file_icons": true, // Icon showing file type
 		// Show diagnostics in file icon (off, errors, all). Requires file_icons=true
-		"show_diagnostics": "all"
+		"show_diagnostics": "all",
 	},
 	"theme_overrides": {
 		"Ayu Dark": {
@@ -146,15 +146,27 @@
 			"title_bar.background": "#17181A",
 
 			"tab_bar.background": "#17181A",
-			"tab.inactive_background": "#16181C"
-		}
+			"tab.inactive_background": "#16181C",
+		},
 	},
 	"languages": {
 		"Go": {
-			"formatter": { "language_server": { "name": "gopls" } }
+			"formatter": { "language_server": { "name": "gopls" } },
 		},
 		"Rust": {
-			"formatter": "language_server"
-		}
-	}
+			"formatter": "language_server",
+		},
+		"C": {
+			"format_on_save": "on",
+			"formatter": {
+				"external": {
+					"command": "clang-format",
+					"arguments": [
+						"-style={BasedOnStyle: LLVM, UseTab: Always, IndentWidth: 4, TabWidth: 4}",
+						"--assume-filename={buffer_path}",
+					],
+				},
+			},
+		},
+	},
 }

@@ -299,5 +299,11 @@
   "bindings": {
    "f5": "editor::Delete"
   }
+ },
+ {
+  "context": "Editor",
+  "bindings": {
+   "ctrl-e": "editor::SelectLargerSyntaxNode"
+  }
  }
 ]
