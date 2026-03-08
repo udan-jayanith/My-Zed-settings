@@ -7,7 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"selection_highlight": false,
+	"git": {
+  "inline_blame": {
+   "show_commit_summary": true
+  }
+ },
+ "selection_highlight": false,
 	"auto_update": true,
 	"collaboration_panel": {
 		"dock": "right",
@@ -16,7 +21,8 @@
 		"dock": "right",
 	},
 	"git_panel": {
-		"dock": "right",
+		"status_style": "icon",
+  "dock": "right",
 	},
 	"project_panel": {
 		"hide_hidden": true,
@@ -45,7 +51,7 @@
 		"background_coloring": "disabled",
 		"coloring": "fixed",
 	},
-	"preferred_line_length": 110,
+	"preferred_line_length": 132,
 	"show_wrap_guides": false,
 	"hard_tabs": true,
 	"toolbar": {
