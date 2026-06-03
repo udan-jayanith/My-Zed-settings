@@ -31,9 +31,8 @@
 		"dock": "right",
 	},
 	"title_bar": {
-		// Show/hide branch icon beside branch switcher
-		"show_branch_status_icon": true,
-  "show_branch_name": true, // Show/hide branch name
+		"show_branch_icon": true, // Show/hide branch icon beside branch switcher
+		"show_branch_name": true, // Show/hide branch name
 		"show_user_picture": true, // Show/hide user avatar
 		"show_sign_in": true, // Show/hide sign-in button
 		"show_menus": false,
@@ -78,9 +77,7 @@
 	},
 	"show_edit_predictions": false,
 	"agent": {
-		"show_merge_conflict_indicator": true,
-  "cancel_generation_on_terminal_stop": true,
-  "dock": "right",
+		"dock": "right",
   "button": false,
 		"expand_terminal_card": false,
 		"expand_edit_card": false,
@@ -90,7 +87,7 @@
 	},
 	"disable_ai": true,
 	"terminal": {
-		"font_size": 14.6,
+		"font_size": 13.6,
 		"cursor_shape": "bar",
 		"dock": "right",
 		"button": false,

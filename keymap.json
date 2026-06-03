@@ -305,5 +305,11 @@
   "bindings": {
    "ctrl-e": "editor::SelectLargerSyntaxNode"
   }
+ },
+ {
+  "context": "Terminal",
+  "bindings": {
+   "ctrl-v": "terminal::Paste"
+  }
  }
 ]
